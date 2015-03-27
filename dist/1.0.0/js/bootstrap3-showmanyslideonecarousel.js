@@ -1,5 +1,6 @@
 /*! bootstrap3-showmanyslideonecarousel - v1.0.0 - 2015-03-27
-* Copyright (c) 2015 Matthew Harris, rtpHarry <matthew@rtpdesign.co.uk>; Licensed MIT */
+* Copyright (c) 2015 Matthew Harris, rtpHarry <matthew@rtpdesign.co.uk>; Licensed MIT
+* https://github.com/rtpHarry/Bootstrap3-ShowManySlideOneCarousel */
 (function(){
   $('.carousel-showmanymoveone .item').each(function(){
     var itemToClone = $(this);
