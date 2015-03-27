@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <!--
+  Copyright (c) 2015 by Matthew Harris (http://codepen.io/rtpHarry/pen/YPBydd)
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+  -->
+  <title>rtpDesign - Bootstrap 3 Show Many Slide One Carousel</title>
+  <meta name="viewport" content="width=device-width">
+  <link href="http://fonts.googleapis.com/css?family=Open+Sans|Bitter" rel="stylesheet" type="text/css">
+  <link rel='stylesheet' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css'>
+  <link rel='stylesheet' href='dist/css/1.0.0/bootstrap3-showmanyslideonecarousel.min.css'>
+  <style>
+    /* demo setup only, not needed for carousel */
+    .container {
+      margin-bottom: 50px;
+    }
+    body {
+      font-family: 'Bitter', sans-serif;
+      color: #E54A41;
+      background: url('img/background.png') no-repeat right top / 20%;
+    }
+    p {
+      font-family: 'Open Sans', sans-serif;
+      color: #333;
+      margin-bottom: 2em;
+    }    
+    h2 {
+      margin: 2em 0 1em;
+    }
+    .logo {
+      margin: 20px auto;
+      height: 100px;
+    }
+    @media only screen and (min-width: 768px) {
+      .logo {
+        margin: 28px;
+        float: left;
+      }
+    }
+    .title {
+      padding: 28px;
+      display: table-cell;
+      position: relative;
+      vertical-align: middle;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="row header-row">
+      <div class="col-md-offset-2 col-md-8 title">
+        <img alt="" class="img-responsive logo" src="img/blog-logo.png">
+        <h1>Bootstrap 3 Show Many Slide One Carousel</h1>
+        <p>Find out more about <a href="#">this code sample</a>.</p>
+      </div>    
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <div class="carousel carousel-showmanymoveone slide" id="carousel123">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/0054A6/fff/&amp;text=1" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/002d5a/fff/&amp;text=2" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/d6d6d6/333&amp;text=3" class="img-responsive"></a></div>
+            </div>          
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/002040/eeeeee&amp;text=4" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/0054A6/fff/&amp;text=5" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/002d5a/fff/&amp;text=6" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/eeeeee&amp;text=7" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/40a1ff/002040&amp;text=8" class="img-responsive"></a></div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carousel123" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+          <a class="right carousel-control" href="#carousel123" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12 text-center">
+        <h2>Second carousel test</h2>
+      </div>
+    </div>  
+    <div class="row">
+      <div class="col-md-12">
+        <div class="carousel carousel-showmanymoveone slide" id="carouselABC">
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/0054A6/fff/&amp;text=A" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/002d5a/fff/&amp;text=B" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/d6d6d6/333&amp;text=C" class="img-responsive"></a></div>
+            </div>          
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/002040/eeeeee&amp;text=D" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/0054A6/fff/&amp;text=E" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/002d5a/fff/&amp;text=F" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/eeeeee&amp;text=G" class="img-responsive"></a></div>
+            </div>
+            <div class="item">
+              <div class="col-xs-12 col-sm-6 col-md-3"><a href="#"><img src="http://placehold.it/500/40a1ff/002040&amp;text=H" class="img-responsive"></a></div>
+            </div>
+          </div>
+          <a class="left carousel-control" href="#carouselABC" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+          <a class="right carousel-control" href="#carouselABC" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <script src='//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js'></script>
+  <script src='dist/css/1.0.0/bootstrap3-showmanyslideonecarousel.min.js'></script>
+  <script>
+    (function(){
+      // setup your carousels as you normally would using JS
+      // or via data attributes according to the documentation
+      // http://getbootstrap.com/javascript/#carousel
+      $('#carousel123').carousel({ interval: 2000 });
+      $('#carouselABC').carousel({ interval: 3600 });
+    }());
+  </script>
+</body>
+</html>
