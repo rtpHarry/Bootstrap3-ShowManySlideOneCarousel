@@ -8,7 +8,7 @@ Online Demo
 I have put these up on two popular interactive playgrounds:
 
   - [CodePen](http://codepen.io/rtpHarry/pen/YPBydd/)
-  - [Bootply](http://www.bootply.com/N88CLXCzjq)
+  - [Bootply](http://www.bootply.com/PMDIAzc1Qo)
 
 Description
 ===========
