@@ -29,12 +29,14 @@ Your best bet is to load up the sample on [CodePen](http://codepen.io/rtpHarry/p
 1. Copy the html and JavaScript over to your project
 1. In the CSS (Less) panel look in the top right for a small eye symbol. Clicking this will compile the Less into CSS so you can use it without having any special software installed.
 
+<!--
 ## Installing - NPM
 You can install a copy of this by typing this into your command line terminal:
 
     > npm install bootstrap3-showmanyslideonecarousel
 
 Note: this isn't a plugin or module, its a sample file so you will need to copy / tweak the files to integrate them into your project.
+-->
 
 ## Installing - Git
 You can install a copy of this by typing this into your command line terminal:
