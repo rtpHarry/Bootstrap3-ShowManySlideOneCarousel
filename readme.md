@@ -20,7 +20,7 @@ I found the [original concept on Bootply](http://www.bootply.com/TkEfjDBeRP) but
 
 This version has been updated to fix animation bugs and make it compatible with Bootstrap again now that it has moved to using css transitions for its animations. 
 
-I've added in a Less stylesheet which means you can easily update the container name and make changes to the numbers of columns ([guide in the wiki](#)).
+I've added in a Less stylesheet which means you can easily update the container name and make changes to the numbers of columns ([guide in the wiki](https://github.com/rtpHarry/Bootstrap3-ShowManySlideOneCarousel/wiki/Change-the-number-of-slides-visible-at-any-one-time)).
 
 I've also optimised the JavaScript code to remove redundant calls and wrap it up safely.
 
@@ -72,7 +72,7 @@ Customisation - Changing the number of slides visible at any one time
 =====================================================================
 This is quite easy but it involves editing both the LESS/CSS and the JS files so I have put this in a wiki item:
 
-  - [Change the number of slides visible at any one time](##)
+  - [Change the number of slides visible at any one time](https://github.com/rtpHarry/Bootstrap3-ShowManySlideOneCarousel/wiki/Change-the-number-of-slides-visible-at-any-one-time)
 
 Browser Compatibility
 =====================
