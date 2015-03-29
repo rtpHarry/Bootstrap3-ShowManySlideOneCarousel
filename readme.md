@@ -75,9 +75,9 @@ I've tested it in:
 If you have feedback, please open an issue or initiate a pull request. I'm happy to make improvements where possible.
 
 ## Website
-There is a blog post announcing this but all the information you need is in this readme:
+There is a blog post announcing this but all the information you need is in this repo:
 
-  - [Using Bootstrap3-FixedFooterPanel In Your Project](##)
+  - [Bootstrap 3 Show Many Slide One Carousel](http://articles.runtings.co.uk/2015/03/bootstrap-3-show-many-slide-one-carousel.html)
 
 ## Release History
 v1.0 - 27-Mar-2015 - Initial release
