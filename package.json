@@ -13,7 +13,7 @@
     "url": "https://github.com/rtpHarry/Bootstrap3-ShowManySlideOneCarousel/issues"
   },
   "devDependencies": {
-    "grunt": "^0.4.5",
+    "grunt": ">=1.3.0",
     "grunt-autoprefixer": "^2.2.0",
     "grunt-contrib-concat": "~0.4.0",
     "grunt-contrib-jshint": "~0.10.0",
